@@ -88,3 +88,6 @@ html::-webkit-scrollbar-thumb{
     border-radius: 0.5rem;
     margin-right: 0.5rem;
 }
+.header-btn .sign-up:hover{
+    background: #a7a7aa;
+}
