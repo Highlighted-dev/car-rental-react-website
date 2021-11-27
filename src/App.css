@@ -1,0 +1,39 @@
+
+#home{
+    width:100%;
+    max-height: 80vh;
+    position: relative;
+    display:flex;
+    top:150px;
+}
+#app-text-container{
+    width:100vh;
+    height:100vh;
+    padding: auto;
+}
+#app-text-container h1{
+    font-size: 4rem;
+    letter-spacing: 2px;
+}
+#app-text-container span{
+    color:#2974e4;
+}
+#app-main-text{
+    text-align: left;
+    margin:auto;
+    padding:10vh;
+    position: relative;
+    width:90vh;
+    height:50vh;
+    top:20vh;
+}
+#image{
+    float:left;
+    width:100vh;
+    min-width:35vh;
+    max-width: 100vh;
+    background: url(Images/RentoroHome.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10rem;
+}
