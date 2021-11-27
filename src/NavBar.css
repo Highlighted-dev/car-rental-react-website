@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+/*Main color setting*/
+:root{
+    --main-color: #2974e4;
+    --second-color: #243aa0;
+    --text-color: #444;
+    --gradient: linear-gradient(#2974e4,#1b308f);
+}
+/*Scroll settings */
+html::-webkit-scrollbar{
+    width:0.5rem
+}
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    background: var(--main-color);
+    border-radius: 5rem;
+}
+#main{
+    padding: 50px 100px;
+    position: fixed;
+    width: 100%;
+    top:0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #eeeff1;
+    padding: 15px 100px;
+}
+.navbar{
+    display:flex;
+}
+.navbar li{
+    position: relative;
+}
+.navbar a{
+    font-size: 1rem;
+    padding: 10px 20px;
+    color: var(--text-color);
+    font-weight: 500;
+}
+.navbar a::after{
+    content: "";
+    width:0;
+    height:3px;
+    background: var(--gradient);
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    transition:0.5s;
+}
+.navbar a:hover::after{
+    width:100%;
+}
+#menu-icon{
+    font-size:20px;
+    cursor: pointer;
+    z-index:10000;
+    display:none;
+}
+.header-btn a{
+    padding: 10px 20px;
+    color: var(--text-color);
+    font-weight: 500;
+}
+.header-btn .sign-in{
+    background: var(--second-color);
+    color:#fff;
+    border-radius: 0.5rem;
+}
+.header-btn .sign-in:hover{
+    background: var(--main-color);
+}
+.header-btn .sign-up{
+    background: #ccccce;
+    color: #fff;
+    border-radius: 0.5rem;
+    margin-right: 0.5rem;
+}
