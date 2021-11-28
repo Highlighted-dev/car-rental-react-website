@@ -1,7 +1,7 @@
 import './App.css';
 import NavBar from './NavBar';
 import Home from './Pages/Home';
-import Ride from './Pages/Ride';
+import Cars from './Pages/Cars';
 import Services from './Pages/Services';
 import About from './Pages/About';
 import Reviews from './Pages/Reviews';
@@ -15,7 +15,7 @@ function App() {
             <Routes>
                 <Route exact path="/" element={<Home/>}/>
                 <Route exact path='/Home' element={<Home/>} />
-                <Route exact path='/Ride' element={<Ride/>} />
+                <Route exact path='/Ride' element={<Cars/>} />
                 <Route exact path='/Services' element={<Services/>} />
                 <Route exact path='/About' element={<About/>} />
                 <Route exact path='/Reviews' element={<Reviews/>} />

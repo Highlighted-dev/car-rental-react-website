@@ -11,10 +11,10 @@ const NavBar = () => {
             <HiMenu id="menu-icon"/>
             <ul className="navbar">
                 <li><Link to="/Home"><span>Home</span></Link></li>  
-                <li><Link to="/Ride">Ride</Link></li>
+                <li><Link to="/Ride">Cars</Link></li>
                 <li><Link to="/Services">Services</Link></li>
-                <li><Link to="/About">About</Link></li>
-                <li><Link to="/Reviews">Reviews</Link></li>
+                <li><Link to="/About">Reviews</Link></li>
+                <li><Link to="/Reviews">About</Link></li>
             </ul>
             <div className="header-btn">
                 <Link to="/" className="sign-up">Sign up</Link>
