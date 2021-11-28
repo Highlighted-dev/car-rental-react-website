@@ -1,6 +1,7 @@
 import React from 'react';
 import Logo from './Images/Rentoro.svg';
 import {HiMenu} from 'react-icons/hi';
+import { Link } from 'react-router-dom';
 import "./NavBar.css"
 const NavBar = () => {
     return (
@@ -9,15 +10,15 @@ const NavBar = () => {
 
             <HiMenu id="menu-icon"/>
             <ul className="navbar">
-                <li><a href="_">Home</a></li>  
-                <li><a href="_">Ride</a></li>
-                <li><a href="_">Services</a></li>
-                <li><a href="_">About</a></li>
-                <li><a href="_">Reviews</a></li>
+                <li><Link to="/Home"><span>Home</span></Link></li>  
+                <li><Link to="/Ride">Ride</Link></li>
+                <li><Link to="/Services">Services</Link></li>
+                <li><Link to="/About">About</Link></li>
+                <li><Link to="/Reviews">Reviews</Link></li>
             </ul>
             <div className="header-btn">
-                <a href="_" className="sign-up">Sign up </a>
-                <a href="_" className="sign-in">Sign in </a>
+                <Link to="/" className="sign-up">Sign up</Link>
+                <Link to="/" className="sign-in">Sign in</Link>
             </div>
         </div>
     )
