@@ -1,5 +1,12 @@
 body{
-    background-color: #eeeff1;
+    background-color: var(--background-color);
+}
+:root{
+    --main-color: #2974e4;
+    --second-color: #243aa0;
+    --text-color: #444;
+    --gradient: linear-gradient(#2974e4,#1b308f);
+    --background-color: #eeeff1;
 }
 #home{
     width:100%;
@@ -12,6 +19,7 @@ body{
 #app-text-container{
     width:90rem;
     min-width:25rem;
+    height:60rem;
     padding: auto;
 }
 #app-text-container h1{
@@ -19,7 +27,7 @@ body{
     letter-spacing: 2px;
 }
 #app-text-container span{
-    color:#2974e4;
+    color:var(--main-color);
 }
 #app-main-text{
     text-align: left;
@@ -57,13 +65,13 @@ body{
     padding: 10px 34px;
     border: none;
     border-radius: 0.5rem;
-    background: #243aa0;
+    background: var(--second-color);
     color: #fff;
     font-size: 1rem;
     cursor: pointer;
 }
 #form-container #btn:hover{
-    background: #2974e4;
+    background: var(--main-color);
 }
 .input-box{
     flex: 1 1 7rem;
@@ -77,7 +85,52 @@ body{
     padding: 7px;
     outline: none;
     border: none;
-    background: #eeeff1;
+    background: var(--background-color);
     border-radius: 0.5rem;
     font-size: 1rem;
+}
+/*Ride seciton*/
+#howToRent{
+    width: 100%;
+    background: #fff;
+    padding-top: 2rem;
+}
+#heading{
+    text-align: center;
+}
+#heading span{
+    font-weight: 500;
+    text-transform: uppercase;
+}
+#heading h1{
+    font-size:2rem;
+}
+#howToRent-container{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit,minmax(250px,auto));
+    gap: 1rem;
+    margin-top: 2rem;
+}
+#howToRent-container .box{
+    text-align: center;
+    padding: 20px;
+}
+#howToRent-container .box .bx{
+    font-size:34px;
+    padding: 10px;
+    background: var(--background-color);
+    border-radius: 0.5rem;
+    color: var(--main-color);
+}
+#howToRent-container .box h2{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 1.4rem 0 0 0.5rem;
+}
+#howToRent-container .box .bx:hover
+{
+    background: var(--gradient);
+    color: #fff;
+    cursor: pointer;
 }
