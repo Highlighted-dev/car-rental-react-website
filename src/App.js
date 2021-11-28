@@ -1,21 +1,28 @@
 import './App.css';
 import NavBar from './NavBar';
+import Home from './Pages/Home';
+import Ride from './Pages/Ride';
+import Services from './Pages/Services';
+import About from './Pages/About';
+import Reviews from './Pages/Reviews';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="app">
-      <NavBar></NavBar>
-      <div id="home">
-        <div id="app-text-container">
-          <div id="app-main-text">
-            <h1><span>Looking</span><br></br>For a car?</h1>
-          </div>
-        </div>
-        <div id="image">
-         {/*Image*/}
-        </div>
+    <div>
+     <BrowserRouter>
+      <NavBar />
+            <Routes>
+                <Route exact path="/" element={<Home/>}/>
+                <Route exact path='/Home' element={<Home/>} />
+                <Route exact path='/Ride' element={<Ride/>} />
+                <Route exact path='/Services' element={<Services/>} />
+                <Route exact path='/About' element={<About/>} />
+                <Route exact path='/Reviews' element={<Reviews/>} />
+            </Routes>
+      </BrowserRouter>
       </div>
-    </div>
+    
   );
 }
 
