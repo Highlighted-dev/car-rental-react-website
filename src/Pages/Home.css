@@ -1,0 +1,83 @@
+body{
+    background-color: #eeeff1;
+}
+#home{
+    width:100%;
+    min-height: 89vh;
+    position: relative;
+    display:flex;
+    top:150px;
+    
+}
+#app-text-container{
+    width:90rem;
+    min-width:25rem;
+    padding: auto;
+}
+#app-text-container h1{
+    font-size: 5vh;
+    letter-spacing: 2px;
+}
+#app-text-container span{
+    color:#2974e4;
+}
+#app-main-text{
+    text-align: left;
+    margin:auto;
+    padding:10vh;
+    position: relative;
+    min-width:5rem;
+    min-height:20rem;
+    top:5rem;
+}
+#image{
+    float:left;
+    width:100vh;
+    height: 80vh;
+    min-width:5vh;
+    max-width: 100vh;
+    background: url(../Images/RentoroHome.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#form-container form{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    position: absolute;
+    bottom: 24rem;
+    left: 100px;
+    padding: 20px;
+    border-radius: 0.5rem;
+    background-color: #fff;
+}
+#form-container #btn{
+    flex: 1 1 7rem;
+    padding: 10px 34px;
+    border: none;
+    border-radius: 0.5rem;
+    background: #243aa0;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+#form-container #btn:hover{
+    background: #2974e4;
+}
+.input-box{
+    flex: 1 1 7rem;
+    display: flex;
+    flex-direction: column;
+}
+.input-box span{
+    font-weight: 500;
+}
+.input-box input{
+    padding: 7px;
+    outline: none;
+    border: none;
+    background: #eeeff1;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
