@@ -1,0 +1,7 @@
+#home{
+    width:100%;
+    min-height: 80vh;
+    position: relative;
+    display:flex;
+    top:175px;  
+}
