@@ -26,7 +26,7 @@ const Home = () => {
                     <span>Return Date</span>
                     <input type="date"></input>
                 </div>
-                <input type="submit"  name="" id="btn"></input>
+                <input type="submit"  name="" id="btn" value="Rent"></input>
                 </form>
             </div>
         </div>
