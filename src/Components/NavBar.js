@@ -29,8 +29,8 @@ const NavBar = () => {
                 <li><Link to="/Home"><span>Home</span></Link></li>  
                 <li><Link to="/Cars">Cars</Link></li>
                 <li><Link to="/Services">Services</Link></li>
-                <li><Link to="/About">Reviews</Link></li>
-                <li><Link to="/Reviews">About</Link></li>
+                <li><Link to="/Reviews">Reviews</Link></li>
+                <li><Link to="/About">About</Link></li>
             </ul>
             {button}
         </div>
