@@ -1,7 +1,7 @@
 import React from 'react'
 import { useNavigate} from 'react-router-dom'
-import "./Dashboard.css"
-import {useAuth} from '../AuthProvider'
+import "../css/Dashboard.css"
+import {useAuth} from '../../Auth/AuthProvider'
 
 const Dashboard = () => {
     const {currentUser, logout} = useAuth();

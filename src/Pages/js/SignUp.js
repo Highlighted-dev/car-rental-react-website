@@ -1,7 +1,7 @@
 import React, {useRef, useState} from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import './SignForms.css'
-import {useAuth} from '../AuthProvider'
+import '../css/SignForms.css'
+import {useAuth} from '../../Auth/AuthProvider'
 const SignUp = () => {
     const emailRef = useRef()
     const passwordRef = useRef()
@@ -24,16 +24,17 @@ const SignUp = () => {
         await signup(emailRef.current.value, passwordRef.current.value)
         navigate("/Dashboard");
       } catch {
+        setLoading(false)
         setError("Failed to create an account")
       }
   
-      setLoading(false)
+     
     }
 
     return (
         <div id="home">
         {error && console.log(error)}
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit} id="signForm">
                 <h3>Sign up</h3><br />
                 <div className="input-box">
                     <span>E-mail:</span>

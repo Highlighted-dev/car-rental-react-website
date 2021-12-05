@@ -44,7 +44,7 @@ body{
     height: 45rem;
     min-width:5vh;
     max-width: 100vh;
-    background: url(../Images/RentoroHome.svg);
+    background: url(../../Images/RentoroHome.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }

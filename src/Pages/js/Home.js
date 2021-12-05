@@ -1,5 +1,5 @@
-import './Home.css';
-import NavBar from '../NavBar';
+import "../css/Home.css"
+import NavBar from '../../Components/NavBar';
 import {BiMap} from 'react-icons/bi';
 import {AiOutlineCalendar, AiFillCar} from 'react-icons/ai';
 
@@ -13,7 +13,7 @@ const Home = () => {
                 <h1><span>Looking</span><br></br>For a car?</h1>
             </div>
             <div id="form-container">
-                <form action="">
+                <form>
                 <div className="input-box">
                     <span>Location</span>
                     <input type="search" name="" id="" placeholder="Search Places"></input>

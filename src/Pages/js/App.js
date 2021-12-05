@@ -1,15 +1,15 @@
 import './App.css';
-import NavBar from './NavBar';
-import Home from './Pages/Home';
-import Cars from './Pages/Cars';
-import Services from './Pages/Services';
-import About from './Pages/About';
-import Reviews from './Pages/Reviews';
-import SignUp from './Pages/SignUp';
-import SignIn from './Pages/SignIn';
-import Dashboard from './Pages/Dashboard';
+import NavBar from '../../Components/NavBar';
+import Home from './Home';
+import Cars from './Cars';
+import Services from './Services';
+import About from './About';
+import Reviews from './Reviews';
+import SignUp from './SignUp';
+import SignIn from './SignIn';
+import Dashboard from './Dashboard';
 import { BrowserRouter, Route, Routes} from 'react-router-dom';
-import AuthProvider from './AuthProvider';
+import AuthProvider from '../../Auth/AuthProvider';
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
             <Routes>
                 <Route exact path="/" element={<Home/>}/>
                 <Route exact path='/Home' element={<Home/>} />
-                <Route exact path='/Ride' element={<Cars/>} />
+                <Route exact path='/Cars' element={<Cars/>} />
                 <Route exact path='/Services' element={<Services/>} />
                 <Route exact path='/About' element={<About/>} />
                 <Route exact path='/Reviews' element={<Reviews/>} />

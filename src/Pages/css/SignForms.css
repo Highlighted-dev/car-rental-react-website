@@ -5,7 +5,7 @@
     display:flex;
     top:175px;  
 }
-form{
+#signForm{
     margin:auto;
     text-align: center;
     align-items: center;
@@ -16,7 +16,7 @@ form{
     background-color: #fff;
     
 }
-#btn{
+#signForm #btn{
     flex: 1 1 7rem;
     padding: 10px 34px;
     border: none;
@@ -25,7 +25,7 @@ form{
     color: #fff;
     font-size: 1rem;
     cursor: pointer;
-    margin-top:20px;
+    margin-top: 20px;
 }
 
 .input-box{
