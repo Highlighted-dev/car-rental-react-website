@@ -10,11 +10,11 @@ form{
     text-align: center;
     align-items: center;
     gap: 1rem;
-
-
     padding: 2rem;
     border-radius: 0.5rem;
-    background-color: rgb(255, 255, 255);
+    border: 1px solid gray;
+    background-color: #fff;
+    
 }
 #btn{
     flex: 1 1 7rem;
@@ -39,12 +39,12 @@ form{
 .input-box input{
     padding: 7px;
     outline: none;
-    border: none;
+    border: 1px solid gray;
     background: var(--background-color);
     border-radius: 0.5rem;
     font-size: 1rem;
 }
-a{
+form a{
     color:rgb(34, 31, 194);
     font-weight: 500;
 }
