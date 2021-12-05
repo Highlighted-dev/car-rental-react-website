@@ -1,0 +1,59 @@
+#about{
+    position:relative;
+    top:110px;
+    color:black;
+    width:100vw;
+    height:88.6vh;
+}
+#about-main{
+    font-size:1.5vh;
+    margin:15vh 10vw 0 10vw;
+    float:left;
+    width:80vw;
+    height:8vh;
+    text-align: center;
+    align-items: center;
+    border: 2px solid #2974e4;
+    border-bottom: 0px;
+}
+#about-us{
+    border: solid 2px #2974e4;
+    border-top: 0px;
+    display:flex;
+    position: relative;
+    width:80vw;
+    height:34vh;
+    margin:auto;
+}
+#about-us-img{
+    background-image: url(../../Images/CarRentalAbout.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 40vw;
+    height: 34vh;
+}
+#about-us-text{
+    width:40vw;
+    height:34vh;
+    padding:10px;
+    text-align: justify;
+    font-size: 1.8vh;
+}
+#about-main h1{
+    color: var(--second-color);
+}
+#about-us h3{
+    color: var(--main-color);
+}
+
+#about-us #btn{
+    flex: 1 1 7rem;
+    padding: 8px 28px;
+    border: none;
+    border-radius: 0.5rem;
+    background: var(--second-color);
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}
