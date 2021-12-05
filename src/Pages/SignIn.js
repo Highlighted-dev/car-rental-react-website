@@ -6,7 +6,7 @@ import './SignForms.css';
 const SignIn = () => {
     const emailRef = useRef()
     const passwordRef = useRef()
-    const {signin,currentUser} = useAuth()
+    const {signin} = useAuth()
     //TODO Show errors on the screen
     const navigate = useNavigate()
     const [error, setError] = useState('')
@@ -18,7 +18,7 @@ const SignIn = () => {
             setError('')
             setLoading(true)
             await signin(emailRef.current.value, passwordRef.current.value);
-            navigate("/");
+            navigate("/Dashboard");
         }
         catch{
             
