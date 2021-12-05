@@ -1,0 +1,26 @@
+#home{
+    width:100%;
+    min-height: 80vh;
+    position: relative;
+    display:flex;
+    top:175px;  
+}
+#container{
+    margin:auto;
+    text-align: center;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    border: 1px solid gray;
+    background-color: #fff;
+    width: 20rem;
+    height:15rem;
+
+}
+#container label{
+    color:rgb(34, 31, 194);
+    font-weight: 500;
+    position: relative;
+    top: 70px;
+    cursor: pointer;
+}

@@ -7,7 +7,8 @@ import About from './Pages/About';
 import Reviews from './Pages/Reviews';
 import SignUp from './Pages/SignUp';
 import SignIn from './Pages/SignIn';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Dashboard from './Pages/Dashboard';
+import { BrowserRouter, Route, Routes} from 'react-router-dom';
 import AuthProvider from './AuthProvider';
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
                 <Route exact path='/Reviews' element={<Reviews/>} />
                 <Route exact path='/SignUp' element={<SignUp/>} />
                 <Route exact path='/SignIn' element={<SignIn/>} />
+                <Route path='/Dashboard' element={<Dashboard/>} />
             </Routes>
       </BrowserRouter>
       </div>
