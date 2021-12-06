@@ -1,0 +1,56 @@
+.card{
+    display: inline-block;
+    width:35vh;
+    height:45vh;
+    background:white;
+    border: solid 1px black;
+    border-radius: 25px;
+    margin:6vh 3vh 0vh 3vh;
+    text-align: justify;
+    color:rgb(39, 34, 34);
+
+}
+.images{
+    width:35vh;
+    max-height:20vh;
+    overflow:auto;
+}
+.text{
+    width:34vh;
+    min-height:20vh;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+    font-size:1.8vh;
+    margin: 0vh 0.5vh 0 0.5vh;
+    overflow:auto;
+}
+
+.affilate{
+    width:34vh;
+    height:2.5vh;
+    margin-top:0.5vh;
+    text-align: center;
+}
+.affilate a{
+    text-decoration: none;
+    color: var(--main-color);
+    font-size:1.8vh;
+    margin:auto;
+}
+
+@media only screen and (max-height: 1000px) {
+    .affilate{
+        margin:0.5vh 0vh 0vh 0vh;
+    }
+}
+@media only screen and (max-width:435px)  {
+    .card{
+        width:32vh;
+    }
+    .images{
+        width:32vh;
+    }
+    .text{
+        width:31vh;
+    }
+}
