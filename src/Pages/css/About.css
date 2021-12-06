@@ -3,7 +3,7 @@
     top:110px;
     color:black;
     width:100vw;
-    height:88.6vh;
+    height:auto;
 }
 #about-main{
     font-size:1.5vh;
@@ -22,11 +22,10 @@
     display:flex;
     position: relative;
     width:80vw;
-    height:34vh;
     margin:auto;
 }
 #about-us-img{
-    background-image: url(../../Images/CarRentalAbout.svg);
+    background-image: url(Backgrounds/CarRentalAbout.svg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
