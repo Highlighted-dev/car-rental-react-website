@@ -1,5 +1,4 @@
 import React from 'react';
-import Logo from '../Images/Rentoro.svg';
 import {HiMenu} from 'react-icons/hi';
 import { Link } from 'react-router-dom';
 import {useAuth} from "../Auth/AuthProvider";
@@ -22,8 +21,7 @@ const NavBar = () => {
 
     return (
         <div id="main">
-            <img src={Logo} alt="Logo" className="logo" width="80px"></img>
-
+            <img src={process.env.PUBLIC_URL + '/Images/Rentoro.svg'} alt="Logo" className="logo" width="80px"></img>
             <HiMenu id="menu-icon"/>
             <ul className="navbar">
                 <li><Link to="/Home"><span>Home</span></Link></li>  
