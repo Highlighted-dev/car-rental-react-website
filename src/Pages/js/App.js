@@ -2,7 +2,6 @@ import '../css/App.css';
 import NavBar from '../../Components/NavBar';
 import Home from './Home';
 import Cars from './Cars';
-import Services from './Services';
 import About from './About';
 import Reviews from './Reviews';
 import SignUp from './SignUp';
@@ -21,7 +20,6 @@ function App() {
                 <Route exact path="/" element={<Home/>}/>
                 <Route exact path='/Home' element={<Home/>} />
                 <Route exact path='/Cars' element={<Cars/>} />
-                <Route exact path='/Services' element={<Services/>} />
                 <Route exact path='/About' element={<About/>} />
                 <Route exact path='/Reviews' element={<Reviews/>} />
                 <Route exact path='/SignUp' element={<SignUp/>} />

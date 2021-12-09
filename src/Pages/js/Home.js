@@ -2,6 +2,7 @@ import "../css/Home.css"
 import NavBar from '../../Components/NavBar';
 import {BiMap} from 'react-icons/bi';
 import {AiOutlineCalendar, AiFillCar} from 'react-icons/ai';
+import ImageSlider from "../../Components/ImageSlider";
 
 const Home = () => {
   return (
@@ -56,6 +57,7 @@ const Home = () => {
                 <p>Lorem ipsum dolor, sit amet consecteur adipiscing elit.</p>
             </div>
         </div>
+        <ImageSlider/>
       </div>
     </div>
   );
