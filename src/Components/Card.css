@@ -2,18 +2,19 @@
     display: inline-block;
     width:35vh;
     height:45vh;
-    background:white;
-    border: solid 1px black;
+    background:#fff;
     border-radius: 25px;
     margin:6vh 3vh 0vh 3vh;
     text-align: justify;
-    color:rgb(39, 34, 34);
-
+    color:#000000;
+    box-shadow: 40px 40px 40px rgba(0,0,0,0.1);
 }
-.images{
+.card .images{
     width:35vh;
     max-height:20vh;
     overflow:auto;
+    padding:10px;
+    border-radius: 25px;
 }
 .text{
     width:34vh;
@@ -33,7 +34,8 @@
 }
 .affilate a{
     text-decoration: none;
-    color: var(--main-color);
+    color: black;
+    font-weight: 600;
     font-size:1.8vh;
     margin:auto;
 }

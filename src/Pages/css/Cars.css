@@ -14,14 +14,14 @@
 }
 #cars-text h3{
     color: var(--text-color);
-    font-weight: 400;
+    font-weight: 500;
 }
 #cars-text h1{
     color: var(--main-color);
-    font-weight: 400;
+    font-weight: 600;
 }
 #cars-container{
-    background-color: #181818;
+    background-color: var(--background-color);
     overflow:hidden;
     color:white;
     width:100%;

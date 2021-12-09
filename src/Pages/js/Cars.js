@@ -5,10 +5,6 @@ import Card from "../../Components/Card"
 const Cars = () => {
     return (
         <div id="cars">
-            <div id="cars-text">
-                <h3>Check our</h3>
-                <h1>CARS</h1>
-            </div>
             <div id="cars-container">
             <Card title="Mercedes Benz C Class Coupe"
                 text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non dui maximus, lobortis leo id, imperdiet odio. Sed porta massa non molestie tristique. Fusce vel posuere ligula. Sed at sodales odio. Vivamus dictum dictum erat at efficitur.'
