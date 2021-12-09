@@ -69,7 +69,7 @@ const Home = () => {
             <div id="reviews-container">
                 <div className="box">
                     <div class="rev-img">
-                    <img src={process.env.PUBLIC_URL + `../Images/andrzej.jpg`} alt="Andrzej" className="images"></img>
+                    <img src={process.env.PUBLIC_URL + `../Images/AndrzejD.jpg`} alt="AndrzejD" className="images"></img>
                     </div>
                     <h2>Andrzej</h2>
                     <div class="stars">
@@ -97,7 +97,7 @@ const Home = () => {
                 </div>
                 <div className="box">
                     <div class="rev-img">
-                        <img src={process.env.PUBLIC_URL + `../Images/maciej.jpg`} alt="maciej" className="images"></img>
+                        <img src={process.env.PUBLIC_URL + `../Images/MaciejN.jpg`} alt="MaciejN" className="images"></img>
                     </div>
                     <h2>Maciej</h2>
                     <div class="stars">
