@@ -2,21 +2,8 @@ import React from 'react'
 
 const Reviews = () => {
     return (
-        <div>
-            <h1>R</h1><br/>
-            <h1>E</h1><br/>
-            <h1>V</h1><br/>
-            <h1>I</h1><br/>
-            <h1>E</h1><br/>
-            <h1>V</h1><br/>
-            <h1>S</h1><br/>
-            <h1>R</h1><br/>
-            <h1>E</h1><br/>
-            <h1>V</h1><br/>
-            <h1>I</h1><br/>
-            <h1>E</h1><br/>
-            <h1>V</h1><br/>
-            <h1>S</h1><br/>
+        <div id="home">
+            <h1>Reviews coming soon</h1><br/>
         </div>
     )
 }
