@@ -180,3 +180,10 @@ body{
 #reviews-container .box .stars{
     color: var(--main-color)
 }
+
+@media (max-width: 1000px){
+    #form-container form{
+        left:40px;
+        width:80%;
+    }
+}
