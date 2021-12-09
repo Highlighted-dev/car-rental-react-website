@@ -64,7 +64,7 @@ const Home = () => {
         <div id="howToRent-container">
             <div className="box">
                 <BiMap size = {50} className="bx"/>
-                <h2>Choose a location</h2>
+                <h2>Choose a car</h2>
                 <p>Lorem ipsum dolor, sit amet consecteur adipiscing elit.</p>
             </div>
             <div className="box">
@@ -74,7 +74,7 @@ const Home = () => {
             </div>
             <div className="box">
                 <AiFillCar size = {50} className="bx"/>
-                <h2>Book a car</h2>
+                <h2>Return Date</h2>
                 <p>Lorem ipsum dolor, sit amet consecteur adipiscing elit.</p>
             </div>
         </div>
