@@ -1,9 +1,14 @@
 #slider{
     text-align: center;
-    width:45%;
+    width:65%;
     margin: auto;
     margin-top: 100px;
 }
-h2{
-    font-weight: 400;
+#slider span{
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.sliderImage{
+    width: 100%;
+    height: auto;
 }

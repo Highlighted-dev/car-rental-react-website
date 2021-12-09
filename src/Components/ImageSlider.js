@@ -16,16 +16,17 @@ const ImageSlider = () => {
       };
       return (
         <div id="slider">
-          <h2> Featured Cars</h2><br/>
+          <span>Look at our</span>
+          <h1>Featured Cars</h1><br/>
           <Slider {...settings}>
             <div>
-              <img src={process.env.PUBLIC_URL + `../Images/car1.jpg`} alt="car1" width="800px" height="450px"></img>
+              <img src={process.env.PUBLIC_URL + `../Images/car1.jpg`} alt="car1" className="sliderImage"></img>
             </div>
             <div>
-                <img src={process.env.PUBLIC_URL + `../Images/car2.jpg`} alt="car2" width="800px" height="450px"></img>
+                <img src={process.env.PUBLIC_URL + `../Images/car2.jpg`} alt="car2" className="sliderImage"></img>
             </div>
             <div>
-                <img src={process.env.PUBLIC_URL + `../Images/car3.jpg`} alt="car3" width="800px" height="450px"></img>
+                <img src={process.env.PUBLIC_URL + `../Images/car3.jpg`} alt="car3" className="sliderImage"></img>
             </div>
           </Slider>
         </div>
