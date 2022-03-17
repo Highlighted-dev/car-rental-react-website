@@ -1,7 +1,7 @@
 ![image](https://user-images.githubusercontent.com/44095998/158886274-5802cb49-7e03-41b6-8ff8-73cb71fef086.png)
 
 # About
-This project was made for school and has no backend, but is still pretty good
+This project was made for school and has no backend other than firebase, but its still pretty good
 
 # Getting Started with Create React App
 
